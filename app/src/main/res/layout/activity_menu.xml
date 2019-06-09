@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.test.colorbynumber.MenuActivity"
+    android:weightSum="8"
+    android:background="@drawable/background"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/title_menu"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:fontFamily="@font/title1"
+        android:textColor="#000"
+        android:textSize="35dp"
+        android:gravity="center"
+        android:text="Color By Number Game" />
+
+
+    <LinearLayout
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_weight="2"
+        >
+
+        <Button
+            android:layout_width="100dp"
+            android:id="@+id/menu_tutorial"
+            android:fontFamily="@font/pixel_font"
+            android:textSize="10dp"
+            android:layout_height="100dp"
+            android:background="@drawable/button_shape"
+            android:layout_marginHorizontal="25dp"
+            android:text="Guide"/>
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/menu_share"
+            android:fontFamily="@font/pixel_font"
+            android:textSize="10dp"
+            android:background="@drawable/button_shape"
+            android:layout_marginHorizontal="25dp"
+            android:text="Share"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginHorizontal="100dp"
+        android:layout_weight="2">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:background="@drawable/button_shape"
+            android:id="@+id/menu_play"
+            android:fontFamily="@font/pixel_font"
+            android:textSize="20dp"
+            android:text="Play"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_weight="2"
+        >
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:fontFamily="@font/pixel_font"
+            android:textSize="10dp"
+            android:id="@+id/menu_rate"
+            android:background="@drawable/button_shape"
+            android:layout_marginHorizontal="25dp"
+            android:text="Rate\nGame"/>
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:fontFamily="@font/pixel_font"
+            android:textSize="10dp"
+            android:id="@+id/menu_more"
+            android:background="@drawable/button_shape"
+            android:layout_marginHorizontal="25dp"
+            android:text="More\nGames"/>
+
+    </LinearLayout>
+
+    <com.startapp.android.publish.ads.banner.Banner
+        android:id="@+id/adView_menu"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_centerHorizontal="true"
+        android:layout_weight="1"
+        android:gravity="center"/>
+
+</LinearLayout>
+

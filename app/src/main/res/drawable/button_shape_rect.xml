@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Bottom 2dp Shadow -->
+    <item >
+        <shape
+            android:shape="rectangle">
+
+            <solid android:color="#aaa" />
+            <size android:height="80dp" android:width="80dp"></size>
+
+        </shape>
+    </item>
+
+    <item
+        android:top="1px"
+        android:left="1px"
+        android:right="1px"
+        android:bottom="1px">
+        <shape
+            android:shape="rectangle">
+
+            <solid android:color="#fff" />
+            <size android:height="80dp" android:width="380dp"></size>
+
+        </shape>
+    </item>
+
+    <item
+        android:bottom="2px"
+        android:right="2px"
+        android:top="2px"
+        android:left="2px">
+        <shape
+            android:shape="rectangle">
+
+            <solid android:color="#eee" />
+            <size android:height="80dp" android:width="80dp"></size>
+
+        </shape>
+    </item>
+
+    <item
+        android:bottom="9px"
+        android:right="9px"
+        android:top="9px"
+        android:left="9px">
+        <shape
+            android:shape="rectangle">
+
+            <solid android:color="#fff" />
+            <size android:height="80dp" android:width="80dp"></size>
+
+        </shape>
+    </item>
+
+    <item
+        android:bottom="11px"
+        android:right="11px"
+        android:top="11px"
+        android:left="11px">
+        <shape
+            android:shape="rectangle">
+
+            <solid android:color="#666" />
+            <size android:height="80dp" android:width="80dp"></size>
+
+        </shape>
+    </item>
+
+
+
+    <!-- White Top color -->
+    <item
+        android:id="@+id/button_palette"
+        android:bottom="12px"
+        android:right="12px"
+        android:top="12px"
+        android:left="12px">
+
+        <shape  android:shape="rectangle">
+
+            <solid android:color="#fff" />
+            <size android:height="80dp" android:width="80dp"></size>
+
+        </shape>
+
+    </item>
+
+
+</layer-list>

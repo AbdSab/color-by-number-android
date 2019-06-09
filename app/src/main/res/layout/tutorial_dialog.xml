@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="400dp"
+    android:background="@drawable/button_shape_rect">
+
+
+        <ImageButton
+            android:id="@+id/dialog_back"
+            android:layout_alignParentLeft="true"
+            style="?android:attr/borderlessButtonStyle"
+            android:src="@drawable/ic_chevron_left_black_24dp"
+            android:layout_width="25dp"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="80dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp" />
+
+        <ImageView
+            android:id="@+id/dialog_image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="50dp"
+            android:layout_marginBottom="110dp"
+            android:layout_marginTop="40dp"
+            android:src="@drawable/tuto1"/>
+
+
+        <ImageButton
+            android:id="@+id/dialog_next"
+            android:layout_alignParentRight="true"
+            style="?android:attr/borderlessButtonStyle"
+            android:src="@drawable/ic_chevron_right_black_24dp"
+            android:layout_width="25dp"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="80dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#666"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginBottom="65dp"
+        android:layout_alignParentBottom="true"
+        />
+
+    <Button
+        android:id="@+id/dialog_ok"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:text="Ok"
+        android:fontFamily="@font/title1"
+        android:layout_margin="20dp"/>
+
+
+
+
+</RelativeLayout>
